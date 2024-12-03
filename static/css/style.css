@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+body {
 .element {
   height: 50px;
   width: 50px;
@@ -29,16 +30,6 @@
 .white {fill:#FFFFFF}
 .gray {fill:#E0E0E0}
 .yellow {fill:#FFEB3B}
-body {
-    padding: 2rem;
-    background: linear-gradient(to bottom, #57c1eb 0%,#246fa8 100%);
-    color: whitesmoke;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    font-size: 2rem;
 }
 
 input, button {
